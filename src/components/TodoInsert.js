@@ -14,7 +14,7 @@ function TodoInsert({onInsert}) {
         setValue('');
         e.preventDefault();
         //submit이벤트는 브라우저에서 새로고침을 발생시킨다
-    },[]);
+    },[value]);
 
     return (
         <div>
